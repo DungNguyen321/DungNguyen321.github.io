@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>klpod221</title>
+
+  <!-- Google Fonts Poppins -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav-logo">klpod221</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#educations" class="nav-link">Educations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#works" class="nav-link">Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-container bd-container bd-grid">
+      <div class="home-data">
+        <div class="home-greeting">
+          <span>HELLO,</span>
+        </div>
+        <div class="home-title">
+          <h1>I'm klpod221</h1>
+        </div>
+        <div class="home-career">
+          <p>Front-End Developer</p>
+        </div>
+        <div class="home-description">
+          <p>
+            I am a software engineering student at Ha Noi University of Science and Technology and have 2+ years of
+            experience in web development. I am passionate about web development and always want to learn new things.
+          </p>
+        </div>
+        <div class="home-button">
+          <a href="#contact" class="home-contact">CONTACT ME</a>
+          <a href="#works" class="home-works">MY WORKS</a>
+        </div>
+        <div class="home-social">
+          <a href="#" class="home-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="home-icon" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" class="home-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="home-icon" target="_blank"><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="home-img">
+          <img src="https://github.com/klpod221.png" alt="" class="home-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educations -->
+  <section class="educations" id="educations">
+    <h2 class="section-title">MY EDUCATIONS</h2>
+    <p class="section-subtitle">
+      My education background and experience in the field of software engineering.
+    </p>
+    <div class="educations-container bd-container bd-grid">
+      <div class="educations-data">
+        <div class="educations-img">
+          <img src="./assets/img/web-design.svg" alt="" />
+        </div>
+        <small>2019 - 2023</small>
+        <h3 class="educations-title">Software Engineering</h3>
+        <p class="educations-description">
+          Ha Noi University of Science and Technology
+        </p>
+      </div>
+
+      <div class="educations-data">
+        <div class="educations-img">
+          <img src="./assets/img/web-development.svg" alt="" />
+        </div>
+        <small>2019 - 2023</small>
+        <h3 class="educations-title">Software Engineering</h3>
+        <p class="educations-description">
+          Ha Noi University of Science and Technology
+        </p>
+      </div>
+
+      <div class="educations-data">
+        <div class="educations-img">
+          <img src="./assets/img/graphics-design.svg" alt="" />
+        </div>
+        <small>2019 - 2023</small>
+        <h3 class="educations-title">Software Engineering</h3>
+        <p class="educations-description">
+          Ha Noi University of Science and Technology
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section class="works" id="works">
+    <h2 class="section-title">MY WORKS</h2>
+    <p class="section-subtitle">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, labore.
+    </p>
+
+    <!-- Work filter as select option -->
+    <div class="works-filter">
+      <select name="works-filter" id="works-filter">
+        <option value="web">Web</option>
+        <option value="design">Design</option>
+      </select>
+    </div>
+
+    <div class="works-slider">
+      <div class="works-container bd-container bd-grid">
+
+        <div class="slide-btn prev">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+
+        <div class="slide-btn next">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="works-wrapper">
+          <div class="works-data" data-category="web">
+            <h3 class="works-title">Web 1</h3>
+            <div class="works-img">
+              <img src="https://github.com/klpod221.png" alt="" />
+            </div>
+            <p class="works-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, at!
+            </p>
+            <a href="#" target="_blank" class="works-link">
+              <span>View More <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="web">
+            <h3 class="works-title">Web 2</h3>
+            <div class="works-img">
+              <img src="https://github.com/klpod221.png" alt="" />
+            </div>
+            <p class="works-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, unde!
+            </p>
+            <a href="#" target="_blank" class="works-link">
+              <span>View More <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="design">
+            <h3 class="works-title">Design 1</h3>
+            <div class="works-img">
+              <img src="https://github.com/klpod221.png" alt="" />
+            </div>
+            <p class="works-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, architecto.
+            </p>
+            <a href="#" target="_blank" class="works-link">
+              <span>View More <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+
+          <div class="works-data" data-category="design">
+            <h3 class="works-title">Design 2</h3>
+            <div class="works-img">
+              <img src="https://github.com/klpod221.png" alt="" />
+            </div>
+            <p class="works-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, unde!
+            </p>
+            <a href="#" target="_blank" class="works-link">
+              <span>View More <i class="fas fa-arrow-circle-right"></i></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <h2 class="section-title">TESTIMONIALS</h2>
+    <p class="section-subtitle">
+      What people say about me and my work.
+    </p>
+
+    <div class="testimonial-slider">
+      <div class="testimonial-container bd-container bd-grid">
+        <div class="testimonial-wrapper">
+          <div class="testimonial-data">
+            <div class="testimonial-img">
+              <img src="./assets/img/testimonial.png" alt="" />
+            </div>
+
+            <h3 class="testimonial-name">John Doe</h3>
+            <p class="testimonial-description">
+              <i class="fas fa-quote-left"></i>
+              He is a great developer, I am very satisfied with his work.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-data">
+            <div class="testimonial-img">
+              <img src="./assets/img/testimonial.png" alt="" />
+            </div>
+
+            <h3 class="testimonial-name">John Doe</h3>
+            <p class="testimonial-description">
+              <i class="fas fa-quote-left"></i>
+              Best developer I have ever worked with.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-data">
+            <div class="testimonial-img">
+              <img src="./assets/img/testimonial.png" alt="" />
+            </div>
+
+            <h3 class="testimonial-name">John Doe</h3>
+            <p class="testimonial-description">
+              <i class="fas fa-quote-left"></i>
+              His work is very professional and on time. I will work with him again.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">CONTACT ME</h2>
+    <p class="section-subtitle">
+      Let's work together and create something unique.
+    </p>
+
+    <div class="contact-container bd-container">
+      <div class="contact-info">
+        <div class="contact-data">
+          <i class="fas fa-envelope"></i>
+          <h3 class="contact-title">Email</h3>
+          <p class="contact-description">
+            klpod221@gmail.com
+          </p>
+        </div>
+
+        <div class="contact-data">
+          <i class="fas fa-phone"></i>
+          <h3 class="contact-title">Phone</h3>
+          <p class="contact-description">
+            +84 123 456 789
+          </p>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <h3 class="form-header">
+          Send me a message
+        </h3>
+
+        <div class="contact-inputs">
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Name" class="contact-input" />
+            <small class="form-error"></small>
+          </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Email" class="contact-input" />
+            <small class="form-error"></small>
+          </div>
+        </div>
+        <div class="form-control">
+          <input type="text" name="subject" placeholder="Subject" class="contact-input" />
+          <small class="form-error"></small>
+        </div>
+        <div class="form-control">
+          <textarea name="message" name="message" id="message" cols="0" rows="7" placeholder="Message"
+            class="contact-input"></textarea>
+          <small class="form-error"></small>
+        </div>
+        <div class="contact-button">
+          <button type="submit" class="contact-send">
+            Send Message
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <footer class="footer section">
+      <div class="footer-container bd-grid">
+        <h3 class="footer-copy">Made with ❤️ by <a class="footer-copy-link" href="https://github.com/klpod221"
+            target="_blank">klpod221</a></h3>
+      </div>
+    </footer>
+  </footer>
+
+  <!-- scroll down -->
+  <a href="#educations" class="scroll-down show" id="scroll-down">
+    <i class="fas fa-chevron-down"></i>
+  </a>
+
+  <!-- scroll top -->
+  <a href="#home" class="scroll-top" id="scroll-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!-- JS script -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
