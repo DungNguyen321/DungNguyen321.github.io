@@ -18,7 +18,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
   font-weight: 500;
-  color: #a2acbd;
+  color: #fffb06dd;
   background-color: #f9f9f9;
   line-height: 1.6;
   overflow-x: hidden;
@@ -80,7 +80,7 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #e4a109;
+  background-color: #ff0303;
 }
 
 .section-subtitle {
@@ -144,7 +144,7 @@ img {
 }
 
 .nav-link:hover {
-  color: #e4a109;
+  color: #05c1ff94;
 }
 
 .nav-logo,
@@ -157,7 +157,7 @@ img {
 
 .nav-logo:hover,
 .nav-toggle:hover {
-  color: #e4a109;
+  color: #eaff04b1;
   transition: 0.3s ease;
 }
 
@@ -176,7 +176,7 @@ img {
   left: 0;
   width: 70%;
   height: 3px;
-  background-color: #e4a109;
+  background-color: yellow;
 }
 
 /* Change background header */
@@ -227,7 +227,7 @@ img {
   display: block;
   font-size: 1.5rem;
   font-weight: 900;
-  color: #e4a109;
+  color: #e4e409;
   line-height: 2rem;
   padding-bottom: 1rem;
   padding-top: 0.5rem;
@@ -235,7 +235,7 @@ img {
 
 .home-career {
   display: block;
-  color: #e4a109;
+  color: #ffff0b;
   line-height: 0.1rem;
   margin-bottom: 2rem;
 }
@@ -255,18 +255,18 @@ img {
 
 .home-contact {
   font-weight: 500;
-  background-color: #e4a109;
+  background-color: #f7ff04cf;
   color: #2a3749;
   padding: 0.5rem 2rem;
-  border: 1px #e4a109 solid;
+  border: 1px #01ff16 solid;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .home-contact:hover {
   background-color: #2a3749;
-  color: #e4a109;
-  border: 1px #e4a109 solid;
+  color: #fbff00;
+  border: 1px #ffff00 solid;
   transition: 0.3s ease-in;
 }
 
@@ -277,15 +277,15 @@ img {
 .home-works {
   font-weight: 500;
   background-color: #2a3749;
-  color: #e4a109;
+  color: #f6ff00;
   padding: 0.5rem 0.65rem;
-  border: 1px #e4a109 solid;
+  border: 1px #f2ff00 solid;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .home-works:hover {
-  background-color: #e4a109;
+  background-color: #fbff00;
   color: #2a3749;
   transition: 0.3s;
 }
@@ -309,7 +309,7 @@ img {
 }
 
 .home-icon:hover {
-  color: #e4a109;
+  color: #fbff00;
   transform: translateY(-0.25rem);
   transition: 0.3s;
 }
