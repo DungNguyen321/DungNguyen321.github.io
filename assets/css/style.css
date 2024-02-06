@@ -176,7 +176,7 @@ img {
   left: 0;
   width: 70%;
   height: 3px;
-  background-color: yellow;
+  background-color: #ffff00;
 }
 
 /* Change background header */
@@ -375,7 +375,7 @@ img {
 }
 
 .educations-title {
-  color: #e4a109;
+  color: #ffff00;
   margin-bottom: 0.5rem;
 }
 
@@ -422,7 +422,7 @@ img {
   top: 50%;
   cursor: pointer;
   font-size: 2rem;
-  color: #e4a109;
+  color: #ffff00;
   z-index: 10;
   display: none;
 }
@@ -461,7 +461,7 @@ img {
 
 .pagination .bullet.active,
 .pagination .bullet:hover {
-  background-color: #e4a109;
+  background-color: #ffff00;
 }
 
 .works-img {
@@ -488,7 +488,7 @@ img {
 }
 
 .works-title {
-  color: yellow;
+  color: #ffff00;
   margin-bottom: 1rem;
 }
 
@@ -505,15 +505,16 @@ img {
   font-weight: 500;
   font-size: 0.75rem;
   background-color: #2a3749;
-  color: #e4a109;
+  color: #fffb00;
   padding: 0.5rem 1rem;
-  border: 1px #e4a109 solid;
+  border: 1px #ffff00 solid;
   cursor: pointer;
   border-radius: 8px;
 }
 
 .works-link span:hover {
-  background-color: #e4a109;
+  background-color: #ffff00
+  ;
   color: #2a3749;
   transition: 0.3s;
 }
@@ -582,7 +583,7 @@ img {
 }
 
 .testimonial-name {
-  color: #e4a109;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
@@ -618,12 +619,12 @@ img {
 
 .contact-data i {
   font-size: 1.5rem;
-  color: #e4a109;
+  color: #ffff00;
   margin-bottom: 0.5rem;
 }
 
 .contact-title {
-  color: #e4a109;
+  color: #ffff00;
   margin-bottom: 0.5rem;
 }
 
@@ -665,7 +666,7 @@ img {
 
 .contact-input:focus {
   outline: 0;
-  border: 1px #e4a109 solid;
+  border: 1px #ffff00 solid;
 }
 
 .contact-inputs {
@@ -683,10 +684,10 @@ img {
 
 .contact-send {
   font-weight: 500;
-  background-color: #e4a109;
+  background-color: #ffff00;
   color: #2a3749;
   padding: 0.5rem 2rem;
-  border: 1px #e4a109 solid;
+  border: 1px #ffff00 solid;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
@@ -696,8 +697,8 @@ img {
 
 .contact-send:hover {
   background-color: #2a3749;
-  color: #e4a109;
-  border: 1px #e4a109 solid;
+  color: #ffff00;
+  border: 1px #ffff00 solid;
 }
 
 .form-error {
@@ -764,7 +765,7 @@ img {
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  color: #e4a109;
+  color: #ffff00;
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -778,7 +779,7 @@ img {
 }
 
 .scroll-top:hover {
-  background-color: #e4a109;
+  background-color: #ffff00;
   color: #2a3749;
   transition: 0.3s;
 }
