@@ -488,7 +488,7 @@ img {
 }
 
 .works-title {
-  color: #e4a109;
+  color: yellow;
   margin-bottom: 1rem;
 }
 
@@ -717,11 +717,11 @@ img {
 .footer-copy {
   text-align: center;
   font-weight: 100;
-  color: #e4a109;
+  color: #fbff00;
 }
 
 .footer-copy-link {
-  color: #e4a109;
+  color: #fff200;
   text-decoration: underline;
   transition: 0.3s;
 }
